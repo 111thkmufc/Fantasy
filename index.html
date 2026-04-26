@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+@font-face {
+  font-family: 'ChenYu';
+  src: url('ChenYuluoyan-Thin-Monospaced.ttf') format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: #ffffff;
+  font-family: 'ChenYu', sans-serif;
+}
+
+.container {
+  text-align: left;
+}
+
+.text {
+  font-size: clamp(10px, 4vw, 24px);
+  line-height: 1.5;
+  color: #3a3a3a;
+  letter-spacing: 1px;
+  white-space: nowrap;
+}
+
+/* 淡入動畫 */
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 2s ease forwards;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+  <div class="text fade-in">
+    「在蔥翠的未知裡，深呼吸，找回純粹的自己。」
+  </div>
+</div>
+
+</body>
+</html>
